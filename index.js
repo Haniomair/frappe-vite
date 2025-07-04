@@ -1,7 +1,7 @@
-import { frappeProxy } from './frappeProxy.js'
-import { frappeTypes } from './frappeTypes.js'
-import { jinjaBootData } from './jinjaBootData.js'
-import { buildConfig } from './buildConfig.js'
+import { frappeProxy } from './vite/frappeProxy.js'
+import { frappeTypes } from './vite/frappeTypes.js'
+import { jinjaBootData } from './vite/jinjaBootData.js'
+import { buildConfig } from './vite/buildConfig.js'
 
 function frappeVitePlugin(
   options = {
