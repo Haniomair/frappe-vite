@@ -1,0 +1,12 @@
+{
+  "name": "frappe-vite",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "vite build",
+    "publish": "npm publish --access public"
+  },
+  "author": "Hani AlOmair",
+  "license": "ISC",
+  "description": "A collection of Vite plugins for Frappe applications - extracted from frappe-ui"
+}
