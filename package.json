@@ -1,12 +1,16 @@
 {
   "name": "frappe-vite",
   "version": "1.0.0",
+  "author": "Hani AlOmair",
+  "license": "MIT",
   "main": "index.js",
+  "description": "A collection of Vite plugins for Frappe applications - extracted from frappe-ui",
   "scripts": {
     "build": "vite build",
     "publish": "npm publish --access public"
   },
-  "author": "Hani AlOmair",
-  "license": "ISC",
-  "description": "A collection of Vite plugins for Frappe applications - extracted from frappe-ui"
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/Haniomair/frappe-vite.git"
+  }
 }
